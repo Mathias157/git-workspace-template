@@ -1,0 +1,30 @@
+script
+======
+
+.. py:module:: script
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   script.func
+
+
+Module Contents
+---------------
+
+.. py:function:: func(a: str, b: float, c: float = 1.5)
+
+   _summary_
+
+   Args:
+       a (str): _description_
+       b (int): _description_
+       c (float, optional): _description_. Defaults to 1.5.
+
+   Returns:
+       _type_: _description_
+
+
