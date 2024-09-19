@@ -25,5 +25,5 @@ jobs:
 
     - name: Run tests
       run: |
-        tests/test.sh
+        ./tests/test.sh
       shell: bash -el {0}
