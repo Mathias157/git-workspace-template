@@ -1,6 +1,6 @@
 # software_title
 
-(...)
+Credits goes to the CodeRefinery team and [this workshop](https://coderefinery.github.io/reproducible-python/) for inspiring this template
 
 
 ## Purpose
