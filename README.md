@@ -15,7 +15,9 @@ Credits goes to the CodeRefinery team and [this workshop](https://coderefinery.g
 
 ## Installation instructions
 
-(...)
+This example requires an installation of [miniconda.](https://www.anaconda.com/docs/getting-started/miniconda/install#windows-installation)
+
+After that, you can create the environment using the `environment.yml` file. See the [anaconda documentation](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html).
 
 
 ## Example
