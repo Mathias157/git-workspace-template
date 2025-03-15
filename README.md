@@ -9,9 +9,9 @@ Follow the [installation instructions](#installation), and pixi will do the rest
 pixi run src/software_title/script.py --a test --b 5
 ```
 
-```tip
-Note that i needed to add a `#!/usr/bin/env python` on top of the python file and add executable permissions `chmod +x <script.py>` in order to make it runable with `pixi run <script.py>`
-```
+> [!NOTE]  
+> I needed to add a `#!/usr/bin/env python` on top of the python file and add executable permissions `chmod +x <script.py>` in order to make it runable with `pixi run <script.py>`
+
 
 ## Purpose
 
