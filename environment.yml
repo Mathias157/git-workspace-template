@@ -1,0 +1,12 @@
+name: template2
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python 
+  - pandas  
+  - matplotlib 
+  - click
+  - pip
+  - pip:
+    - eel

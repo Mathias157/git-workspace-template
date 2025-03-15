@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tests</title>
+    <!-- <link rel="icon" type="image/x-icon" href="network.svg"> -->
+    <style>
+        body {
+            background-color: rgb(38, 38, 38);
+        }
+        .header {
+            display: flex;
+            justify-content: center;
+            color: white;
+        }
+        .inputs {
+            display: flex;
+            justify-items: center;
+            justify-content: space-around;
+            margin-top: 10px;
+            margin-left: 200px;
+            margin-right: 200px;
+        }
+        .output {
+            display: flex;
+            justify-items: center;
+            justify-content: space-around;
+            color: white;
+        }
+        .output-item {
+            display: flex;
+            vertical-align: auto;
+            margin-top: 10px;
+            padding: 5px;
+            border: none;
+        }
+        .output-item:hover {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- Text Inputs -->
+    <div class="header">
+        <h2>Testing Stuff</h2>
+    </div>    
+
+    <div class="output">
+        Select region to plot:
+    </div>
+    <br>
+    <div class="output" id="path_output">
+        <input type="number" id="user-inputx0" value=18500>
+        <input type="number" id="user-inputx1" value=19000>
+        <input type="number" id="user-inputy0" value=35500>
+        <input type="number" id="user-inputy1" value=36000>
+
+    </div>
+    
+    <br>
+    
+    <div class="output">
+        <button onclick="get_figure()">
+            Plot
+        </button>
+    </div>
+
+    <br>
+
+    <div class="output" >
+        <img id="figure" src="" alt="">
+    </div>
+
+    <script src='/eel.js'></script>
+    <script src="java.js"></script>
+</body>
+</html>
