@@ -1,10 +1,9 @@
+#!/usr/bin/env python
 import click
 
 @click.command()
 @click.option("--a", type=str, required=True, help="A string")
-@click.option(
-    "--b", type=float, required=True, help="An integer"
-)
+@click.option("--b", type=float, required=True, help="An integer")
 def func(a:str, b: float, c: float = 1.5):
     """_summary_
 
