@@ -18,3 +18,5 @@ pip = "*"
 
 [pypi-dependencies]
 gamsapi = { version = ">=45.0.0", extras = ["transfer"] }
+torch = ">=2.7.0, <3"
+torchvision = ">=0.22.0, <0.23"
