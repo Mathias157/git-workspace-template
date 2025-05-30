@@ -2,3 +2,6 @@ build
 # pixi environments
 .pixi
 *.egg-info
+*.pth
+*-ubyte
+*.gz
